@@ -3,15 +3,15 @@
 <pkgmetadata>
   <maintainer type="project">
     <email>fonts@gentoo.org</email>
-	<name>Fonts</email>
+    <name>Fonts</name>
   </maintainer>
   <use>
     <flag name="dotted-zero">
       Replace slashed zeros with dotted zeros
-	</flag>
+    </flag>
     <flag name="psf">
-	  Instal PC Screen Font (PSF) with unicode data (for linux console)
-	</flag>
+      Instal PC Screen Font (PSF) with unicode data (for linux console)
+    </flag>
   </use>
   <upstream>
     <remote-id type="github">wiktor-b/leggie</remote-id>
