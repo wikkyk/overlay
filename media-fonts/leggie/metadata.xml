@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>fonts@gentoo.org</email>
+	<name>Fonts</email>
+  </maintainer>
+  <use>
+    <flag name="dotted-zero">
+      Replace slashed zeros with dotted zeros
+	</flag>
+    <flag name="psf">
+	  Instal PC Screen Font (PSF) with unicode data (for linux console)
+	</flag>
+  </use>
+  <upstream>
+    <remote-id type="github">wiktor-b/leggie</remote-id>
+  </upstream>
+</pkgmetadata>
