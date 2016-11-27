@@ -14,10 +14,7 @@ SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd ~x86-freebsd ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos"
 IUSE="dotted-zero +psf"
 
-DEPEND="
-	dotted-zero? ( sys-devel/patch )
-	psf? ( app-arch/gzip app-text/bdf2psf )
-"
+DEPEND="psf? ( app-arch/gzip app-text/bdf2psf )"
 RDEPEND=""
 
 DOCS="README LICENSE"
