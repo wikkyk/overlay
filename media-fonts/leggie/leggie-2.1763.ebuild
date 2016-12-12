@@ -29,7 +29,9 @@ src_compile() {
 }
 
 src_install() {
-	emake BDFDEST="${D}/usr/share/fonts" installbdf
+	if use X; then
+		emake BDFDEST="${D}/usr/share/fonts" installbdf
+	fi
 	if use psf; then
 		emake PSFDEST="${D}/usr/share/consolefonts" installpsf
 	fi
