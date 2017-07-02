@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-inherit git-r3 savedconfig toolchain-funcs
+inherit eutils git-r3 savedconfig toolchain-funcs
 
 DESCRIPTION="simple user privilege escalation"
 HOMEPAGE="http://git.suckless.org/sup/"
@@ -14,8 +14,9 @@ IUSE="savedconfig"
 
 src_prepare() {
 	default
+	epatch "${FILESDIR}/modemask.patch"
 	tc-export CC
-	restore_config config.h 
+	restore_config config.h
 }
 
 src_install() {
