@@ -2,15 +2,15 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-inherit git-r3 font
+inherit font
 
 DESCRIPTION="A pretty, legible bitmap font with a wide selection of glyphs"
 HOMEPAGE="https://memleek.org/leggie/"
-EGIT_REPO_URI="https://git.memleek.org/leggie/"
+SRC_URI="https://git.memleek.org/${PN}/snapshot/${P}.tar.xz"
 
 LICENSE="CC-BY-4.0"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="alpha amd64 arm arm64 ia64 mips ppc ppc64 s390 sh sparc x86 amd64-linux x86-linux ppc-macos x86-macos"
 IUSE="dotted-zero l10n_sr +psf"
 
 DEPEND="psf? ( app-arch/gzip app-text/bdf2psf )"

@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="person">
-    <email>wiktor@brodlo.net</email>
-    <name>Wiktor W Brodlo</name>
+    <email>w@kerr.sh</email>
+    <name>Wiktor Kerr</name>
   </maintainer>
   <use>
     <flag name="dotted-zero">
@@ -13,7 +13,4 @@
       Instal PC Screen Font (PSF) with unicode data (for linux console)
     </flag>
   </use>
-  <upstream>
-    <remote-id type="github">wiktor-b/leggie</remote-id>
-  </upstream>
 </pkgmetadata>
