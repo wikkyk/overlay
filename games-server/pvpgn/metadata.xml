@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>games@gentoo.org</email>
+		<name>Gentoo Games Project</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">pvpgn/pvpgn-server</remote-id>
+	</upstream>
+	<use>
+		<flag name="bnetd">build bnetd</flag>
+		<flag name="d2cs">build Diablo 2 Game Control Server</flag>
+		<flag name="d2dbs">build Diablo 2 DataBase Server</flag>
+	</use>
+</pkgmetadata>
